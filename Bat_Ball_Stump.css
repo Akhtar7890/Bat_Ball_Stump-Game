@@ -1,0 +1,66 @@
+.window{
+  display: flex;
+  flex-direction: row;
+}
+.result{
+  height:395px;
+  width: 40%;
+  border: 1px solid black;
+  margin: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.container{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  width: 40%;
+  margin: 10px 20px 0px 70px;
+  height:380px;
+  border-radius: 10px;
+}
+.btn{
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border:none;
+  border-radius: 50px;
+  background-color: rgb(80, 216, 80);
+  cursor: pointer;
+}
+button:hover{
+  background-color: red;
+  transform: rotate(0.5turn);
+}
+.image-icon{
+  height: 100px;
+  border-radius: 50px;
+  background-color: rgb(80, 216, 80);
+}
+#reset{
+  border:1px solid red;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+}
+/* @keyframes anime {
+  from{width:0%}
+  to{width: 100%;} 
+} */
+/* @media screen and(min-width:400px) and (max-width:570px){
+.result{
+  height:395px;
+  width: 42%;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.container{
+  margin: 5px 5px 0px 0px;
+}
+} */
