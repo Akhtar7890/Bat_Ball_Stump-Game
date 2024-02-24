@@ -21,6 +21,10 @@
   height:380px;
   border-radius: 10px;
 }
+p{
+  font-family: sans-serif;
+  font-weight:bold;
+}
 .btn{
   height: 100px;
   width: 100px;
