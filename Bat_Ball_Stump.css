@@ -49,22 +49,53 @@ button:hover{
   width: 80px;
   height: 30px;
 }
-/* @keyframes anime {
-  from{width:0%}
-  to{width: 100%;} 
-} */
-/* @media screen and(min-width:400px) and (max-width:570px){
-.result{
-  height:395px;
-  width: 42%;
-  border: 1px solid black;
-  margin: 10px;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 700;
+
+@media screen and (max-width:600px){
+  .window{
+    display: block;
+    border:1px solid black;
+    border-radius: 10px;
+    background-color: cyan;
+  }
+  .btn{
+    padding:1px;
+    border-radius: 50px;
+    height: auto;
+    width: auto;
+    background-color:tomato;
+    cursor: pointer;
+  }
+  .container{
+    text-align: center;
+    width: auto;
+    height:auto;
+    margin: 0px;
+    font-size: 10px;
+    border: none; 
+  }
+  .image-icon{
+    height: 70px;
+    border-radius: 60px;
+    background-color: rgb(80, 216, 80);
+  }
+  .result{
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    border: none;
+    margin:3px;
+    color: rgb(158, 8, 41);
+  }
+  #reset{
+    width: 50px;
+    height: 20px;
+    color: orangered;
+  }
+  button:hover{
+    background-color: cyan;
+  }
+  p{
+    color: black;
+    font-size: 15px;
+  }
 }
-.container{
-  margin: 5px 5px 0px 0px;
-}
-} */
